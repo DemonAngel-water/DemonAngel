@@ -1,0 +1,4 @@
+ren *.pptx *.ppt
+ren *.docx *.doc
+ren *.dat *.png
+ren *.txt *.java

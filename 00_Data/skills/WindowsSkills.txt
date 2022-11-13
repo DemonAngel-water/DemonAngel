@@ -1,0 +1,142 @@
+1.浏览器不能复制内容需付费：
+	在浏览器见面按F12键-----F1键----Debugger栏中勾选Disable JavaScript
+	如果浏览器是小圆圈需要按下Ctrl + Shift + M
+	如果是Edge浏览器，可以在网址的前面加一个read:			会以阅读器模式打开网页就可以复制了
+
+2.PPT中插入视频不能播放
+	ppt后缀名改为
+	.rar或者.ppt.rar
+
+3.键盘的awsd键和方向键的功能颠倒：
+	Fn + W 切换功能
+
+4.步骤记录器
+	win + R
+	输入psr.exe
+	回车就可以了
+
+5.typora
+	同一文件内的跳转
+		<a name="简单的Makefile实例"></a>
+			简单的Makefile实例
+			XXXXXXXX
+			XXXXXXXXX
+			XXXXXXXX
+			XXXXXXXX
+		[main.c、main.h的内容](#简单的Makefile实例)
+	不同文件之间得跳转
+		[01_C语言数据类型及语句](.//01_C语言数据类型及语句.md)
+		// 使用的是相对路径
+		
+6.批量创建文件夹
+	MD 平台使用说明
+	MD 章节资料
+	MD PPT
+	MD 学习方案
+	MD 寓教娱乐
+	MD web安全
+	MD 密码学
+	MD 其他的安全
+
+	批量创建文件夹
+		在所需要批量创建的文件夹中
+		Shift + 鼠标右键
+		进入Powershell
+		粘贴MD 格式的文本			例如：MD 其他的安全
+		回车
+
+	操作网上链接：
+	https://blog.csdn.net/weixin_42304808/article/details/106307499
+
+7.bat批量改文件后缀名
+	ren *.doc *.docx
+	
+8.右键添加快捷方式
+	近来一直用Typora这个神器写东西，感觉相当好，但新建一个文件的时候总是要右键新建一个txt文件，然后再改后缀，这样子还蛮烦的，因此最好的做法是右键直接就能新建一个md文件。实现如下，新建一个txt文件，填入如下内容：
+
+	Windows Registry Editor Version 5.00
+	[HKEY_CLASSES_ROOT\.md]
+	@="Typora.exe"
+	[HKEY_CLASSES_ROOT\.md\ShellNew]
+	"NullFile"=""
+	[HKEY_CLASSES_ROOT\Typora.exe]
+	@="Markdown"
+
+	
+	然后把文件后缀改成reg，双击一下就行了。
+	当然这个方法也可以延伸一下，只要把“template.md”改成别的，那么就能建别的格式的文件
+	
+9.快捷键
+	QT自动重排快捷键
+		Ctrl + I
+	Qt中同一个类的.cpp文件和.h文件快捷键
+		Fn + F4
+		
+	VS code自动重排快捷键
+		alt + shift + F
+	VS code块注释
+	    /**/		alt + shift + a
+	
+	VS2013 
+		自动重排快捷键
+		ctrl + K + D
+		
+		
+	VS2017 自动重排快捷键
+		ctrl + A + K + F
+	VS2017折叠代码
+		Ctrl + M + O
+	VS2017展开代码
+		Ctrl + M + L
+		
+	vim 自动重排快捷键
+		gg = G
+		
+	sublime text自动重排快捷键
+		ctrl + alt + f
+	sublime text块注释
+		ctrl + shift + /
+		
+	notepad++定位行号
+		Ctrl + g
+	
+10、Pointofix中的名词和window中的相对应
+	Umsch  <==>  Shift
+	Strg   <==>  Ctrl
+	Ruck   <==>  Backspace
+	Entf   <==>  Del
+		
+11、列操作
+	word中
+		按下alt键，竖向选择文本内容，选中后按delete删除即可
+	sublime text中
+		1.选择需要列操作的文本
+		2.按下ctrl + shift + l
+		3.操作即可
+	notepad++中（不能单独在每行行尾添加内容）
+		alt + 鼠标左键选中区域
+	notepad++（单独在每行行尾添加内容）
+		Ctrl + H 唤起 替换工具栏
+		
+		查找目标: $
+		替换为: 需要添加的文字（如果存在转义字符使用/）
+		注: ^ 为行尾	$ 为行尾
+		
+		查找模式: 正则表达式
+12、行操作
+	notepad++中
+		Ctrl + Shift + Pgup		行上移
+		Ctrl + Shift + PgDn		行下移
+	sublime中
+		Ctrl + Shift + Pgup		行上移
+		Ctrl + Shift + PgDn		行下移
+		
+13、Excel工作表切换
+	Ctrl + pagedown 
+	Ctrl + pageup
+		
+14、VS Code中python代码不能使用相对路径
+	文件 -> 首选项 -> 设置 -> 在搜索框中输入 python Terminal -> 
+	将python terminal：activate environment 和 python terminal：execute in file dir 勾选上即可
+	或者
+	CTRL + , 打开设置，将python terminal：activate environment 和 python terminal：execute in file dir 勾选上

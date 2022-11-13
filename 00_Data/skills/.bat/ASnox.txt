@@ -1,0 +1,7 @@
+d:
+cd Program Files\Nox\bin
+nox_adb.exe(2) connect 127.0.0.1:62001
+nox_adb.exe connect 127.0.0.1:62001
+
+
+

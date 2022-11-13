@@ -1,0 +1,9 @@
+1. 浏览器中搜索http://tool.chinaz.com/dns
+2. 在搜索框中分别输入github.global.ssl.fastly.net和assets-cdn.github.com
+3. 多查询几次，选择一个最稳定的
+4. 修改C:\Windows\System32\drivers\etc\hosts文件
+	在最后添加如下面的两行
+	185.199.108.153 assets-cdn.github.com
+	157.240.9.36 github.global.ssl.fastly.net
+5. 重启浏览器，可以发现访问github的访问速度变快了
+	

@@ -1,0 +1,28 @@
+布局中常用的对齐属性
+//线性布局
+• 1. android:layout_gravity
+• 2. android:layout_alignParentLeft
+• 3. android:layout_alignParentRight
+• 4. android:layout_alignParentTop
+• 5. android:layout_alignParentButtom
+• 6. android:layout_centerInParent
+
+//下方四种应用在相对布局中RelativeLayout
+• 7. android:layout_above
+• 8. android:layout_below
+• 9. android:layout_toLeftof
+• 10. android:layout_toRightof
+
+
+
+XML属性                                          描述
+android:layout_margin                   设置上下左右外边距
+android:layout_marginBottom       设置底外边距
+android:layout_marginLeft             设置左外边距
+android:layout_marginRight          设置右外边距
+android:layout_marginTop            设置顶外边距
+android:padding                            设置上下左右内边距
+android:paddingbottom                设置底内边距
+android:paddingLeft                      设置左内边距
+android:paddingRight                    设置右内边距
+android:paddingTop                      设置上内边距

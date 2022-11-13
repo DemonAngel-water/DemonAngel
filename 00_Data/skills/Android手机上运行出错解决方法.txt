@@ -1,0 +1,3 @@
+在Android中的Gradle Scripts目录下
+找到gradle.properties中添加代码：
+android.injected.testOnly=false

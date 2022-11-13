@@ -1,0 +1,9 @@
+在电脑上命令行窗口分别输入：
+生成keystore文件：
+keytool -genkey -alias emotianshi -keypass emotianshi -keyalg RSA -keysize 1024 -validity 36500 -keystore D:\Users\86139\fragment_demo.keystore -storepass emotianshi
+
+keytool -list -v -keystore D:\Users\86139\fragment_demo.keystore
+生成.jks文件：
+keytool -genkey -alias emotianshi -keypass emotianshi -keyalg RSA -keysize 1024 -validity 36500 -keystore D:\Users\86139\fragment_demo_jks.jks -storepass emotianshi
+
+keytool -list -v -keystore D:\Users\86139\fragment_demo_jks.jks
