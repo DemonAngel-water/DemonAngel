@@ -150,22 +150,36 @@ $ git remote add origin repoistory.http
 $ git push -u origin master
 ```
 
-# 10 查看远程库信息git remote
+# 10 git remote
 
 ```bash
-$ git remote add gitee https://gitee.com/DemonAngel-six/DemonAngel.git		# 添加远程库
-$ git remote					# 查看远程库信息
-gitee
-github
-$ git remote -v					# 查看远程库详细信息
-gitee   https://gitee.com/DemonAngel-six/DemonAngel.git (fetch)
-gitee   https://gitee.com/DemonAngel-six/DemonAngel.git (push)
-github  https://github.com/DemonAngel-six/DemonAngel.git (fetch)
-github  https://github.com/DemonAngel-six/DemonAngel.git (push)
-$ git remote remove gitee											# 删除远程库
+$ git remote				# 查看远程库信息
+$ git remote -v				# 查看远程库详细信息
 ```
 
 ![image-20221111212521063](images/01_git_skills/image-20221111212521063.png)
+
+## 10.1 添加远程库
+
+```bash
+$ git remote add gitee https://gitee.com/DemonAngel-six/DemonAngel.git		# 添加远程库
+```
+
+## 10.2 删除远程库
+
+```bash
+$ git remote remove gitee		# 删除远程库
+```
+
+## 10.3 修改仓库对应的远程仓库地址
+
+```bash
+$ git remote set-url origin repository_address
+```
+
+![image-20221120105040211](images/01_git_skills/image-20221120105040211.png)
+
+![image-20221120105101494](images/01_git_skills/image-20221120105101494.png)
 
 # 11 git分支管理
 
