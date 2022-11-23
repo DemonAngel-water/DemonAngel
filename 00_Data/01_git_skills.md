@@ -33,17 +33,14 @@ $ git cofig --local --list 				# 查看本地仓库配置
 # 3 git clone 和 git pull的区别
 
 ```bash
-# 从远程主机克隆一个仓库
-$ git clone   
-# 从远程获取最新版本并合并到本地
-$ git pull
+$ git clone   				# 从远程主机克隆一个仓库
+$ git pull					# 从远程获取最新版本并合并到本地
 ```
 
 # 4 git commit --amend
 
 ```bash
-# 修改最后一次的提交
-$ git commit --amend
+$ git commit --amend			# 修改最后一次的提交
 ```
 
 
@@ -83,16 +80,15 @@ $ git log --all			# 与git log一致
 ## 5.2 组合
 
 ```bash
-$ git log --oneline --graph	# git log --oneline --graph --decorate --all 一致
+$ git log --oneline --graph		# git log --oneline --graph --decorate --all 一致
 ```
 
 # 6 git在本地添加一个文件夹gitee
 
 ```bash
-# 使用命令
-$ mkdir 文件名		# 创建一个文件夹
-$ cd 文件名		# 进入文件夹
-$ touch file.txt		# 创建一个文本文件
+$ mkdir 文件名						# 创建一个文件夹
+$ cd 文件名						# 进入文件夹
+$ touch file.txt					# 创建一个文本文件
 
 $ git add .
 $ git commit -m "information"		# 将文件夹和文件都提交到版本库中
@@ -102,12 +98,12 @@ $ git push origin master			# 将版本库中的内容上传到gitee中
 # 7 git版本回退
 
 ```bash
-$ git reflog					# 记录每一次命令
-$ git log						# 查看commit_id，信息显示的较多
-$ git log --pretty=oneline		# 查看commit_id，只显示commit_id和提交信息
+$ git reflog						# 记录每一次命令
+$ git log							# 查看commit_id，信息显示的较多
+$ git log --pretty=oneline			# 查看commit_id，只显示commit_id和提交信息
 $ git reset --hard HEAD^			# 回退到上一个版本
 $ git reset --hard HEAD^^			# 回退到上上一个版本
-$ git reset --hard HEAD~100		# 回退到往上100个版本
+$ git reset --hard HEAD~100			# 回退到往上100个版本
 $ git reset --hard commit_id		# 回退到commit_id处
 ```
 
