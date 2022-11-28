@@ -5,7 +5,7 @@
 
 2.PPT中插入视频不能播放
 	ppt后缀名改为
-	.rar或者.ppt.rar
+	.rar或者.ppt.rar，之后在压缩包中找到相对应的视频去观看
 
 3.键盘的awsd键和方向键的功能颠倒：
 	Fn + W 切换功能
@@ -140,3 +140,10 @@
 	将python terminal：activate environment 和 python terminal：execute in file dir 勾选上即可
 	或者
 	CTRL + , 打开设置，将python terminal：activate environment 和 python terminal：execute in file dir 勾选上
+	
+15、Windows10系统开屏壁纸保存
+	路径：C:\Users\lenovo\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets
+	将Assets文件夹复制到一个新的位置
+	将Assets文件夹中新建一个.txt文本文件，写入那内容：ren *. *jpg
+	将.txt的后缀更改为.bat，双击执行.bat文件
+	之后就可以查看Assets文件夹中的文件，找到开屏壁纸
