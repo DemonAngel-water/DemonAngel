@@ -390,3 +390,15 @@ $ git pull origin master
 6. 切换到master
 7. 删除new_branch
 8. pull master
+
+# 12 git commit -am
+
+```bash
+# 增加和提交的两种方式
+# 第一种
+$ git add .
+$ git commit -m "commit message"
+# 第二种
+$ git commit -am "commit message"
+```
+
