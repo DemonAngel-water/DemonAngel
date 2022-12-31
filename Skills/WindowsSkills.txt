@@ -147,3 +147,10 @@
 	将Assets文件夹中新建一个.txt文本文件，写入那内容：ren *. *jpg
 	将.txt的后缀更改为.bat，双击执行.bat文件
 	之后就可以查看Assets文件夹中的文件，找到开屏壁纸
+	
+16、Windows10系统安装Microsoft Store
+	关于 “安装 Microsoft Store” 的问题，正常情况下 Windows 是会内置 Microsoft Store 的，如果您在系统中没有找到微软商城应用，可能是由于您安装的是精简版的 Windows。
+	按 “Windows 徽标键+X”，启动 “Windows PowerShell（管理员）”，执行以下两条命令：
+	get-appxpackage *store* | remove-Appxpackage
+	add-appxpackage -register "C:\Program Files\WindowsApps\*Store*\AppxManifest.xml" -disabledevelopmentmode
+	执行完毕后重启设备，看一下能否成功安装 Microsoft Store。
